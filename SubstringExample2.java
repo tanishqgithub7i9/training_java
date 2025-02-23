@@ -7,5 +7,7 @@ public class SubstringExample2{
           System.out.println(substr2);
        String substr3=s1.substring(5,13);
 
+       System.out.println(substr3);
+
     }
 }

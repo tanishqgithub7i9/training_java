@@ -1,5 +1,6 @@
- public class statement{
+ public class control{
     public static void main(String[]args){
         int sum=0;
-        for(int j=0;j<=10;j++)
+        System.out.println(sum);
     }
+}

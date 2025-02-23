@@ -1,25 +1,25 @@
 public class traffic{
     public static void main(String[]args){
-        int color="red";
+        String color="red";
         switch(color){
-            case red:
+            case "red":
                 {
-                    System.out.prinln("Stop");
+                    System.out.println("Stop");
                     break;
                 }
-                 case Yellow:
+                 case "yellow":
                 {
-                    System.out.prinln("Slow down");
+                    System.out.println("Slow down");
                     break;
                 }
-                 case red:
+                 case "green":
                 {
-                    System.out.prinln("Go");
+                    System.out.println("Go");
                     break;
                 }
                 default:
                     {
-                         System.out.prinln("default"); 
+                         System.out.println("default"); 
                     }
         }
     }
